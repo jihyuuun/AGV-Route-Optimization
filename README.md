@@ -77,7 +77,7 @@ min 총 이동 시간 + 총 작업 시간 + 지각 계수(λ) x 총 지각 시�
     k번의 무작위 작업 이동/교환 수행 (k값은 adaptive하게 정체 시 증가)
   
   - Local Search phase
-  - 
+    
     a) Intra Or-Opt: 투어 내 연속된 작업 블록을 다른 위치로 이동
     
     b) Intra 2-Opt: 투어 내 연속된 작업 블록을 역순으로 뒤집기
@@ -90,7 +90,8 @@ min 총 이동 시간 + 총 작업 시간 + 지각 계수(λ) x 총 지각 시�
   - 수용 방법
     - 후보해가 현재해보다 작거나 같으면 수용
     - 후보해가 현재해보다 크더라도 다음과 같은 확률로 수용
-      Prob{acceptance} = e^x where x = −(현재해 − 후보해)/T
+
+      $$Prob{acceptance} = e^x where x = −(현재해 − 후보해)/T$$
 
 - **VNS/SA**
   
@@ -117,6 +118,9 @@ min 총 이동 시간 + 총 작업 시간 + 지각 계수(λ) x 총 지각 시�
 
 - Improvement
   - VNS/SA (최종 목적함수 값=12457)
+ 
+    <img width="843" height="242" alt="image" src="https://github.com/user-attachments/assets/28a8322d-7682-477e-a964-ad41c6dfd5aa" />
+
     - 1차 목적함수 값=12509
     - 2차 목적함수 값=12509
     - 3차 목적함수 값=12457
