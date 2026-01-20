@@ -1,6 +1,9 @@
 # AGV-Route-Optimization
 Capacitated VRP with Time Windows 기반 AGV 경로 최적화: 하이브리드 메타휴리스틱 알고리즘 개발
 
+🏆️ **수상**: 스마트 해운물류 x AI 미션 챌린지 : 스마트 항만 AGV 경로 최적화 경진대회 예선 4위 (본선 진출)
+
+
 📅 **기간**: Sep 2025 – Oct 2025
 
 ## 📖 프로젝트 개요  
